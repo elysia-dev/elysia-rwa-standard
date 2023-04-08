@@ -38,7 +38,7 @@ $ yarn test
 
 ### Deploy
 
-Deploy the contracts to Hardhat Network:
+Deploy the contracts to Hardhat Network: **supporting networks : bsc_testnet, bsc**
 
 ```sh
 $ yarn hardhat deploy --network bsc_testnet
@@ -52,8 +52,6 @@ yarn hardhat mint --network bsc_testnet
 yarn hardhat burn --network bsc_testnet
 yarn hardhat set-token-uri --network bsc_testnet
 ```
-
-**supporting networks : bsc_testnet, bsc**
 
 ## License
 
