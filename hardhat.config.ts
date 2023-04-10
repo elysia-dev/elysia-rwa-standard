@@ -29,7 +29,7 @@ const config = {
       chainId: 56,
       accounts: BSC_MAINNET_PRIVATE_KEY !== undefined ? [BSC_MAINNET_PRIVATE_KEY] : [],
     },
-    bsc_testnet: {
+    bscTestnet: {
       url: "https://data-seed-prebsc-1-s1.binance.org:8545",
       chainId: 97,
       accounts: BSC_TESTNET_PRIVATE_KEY !== undefined ? [BSC_TESTNET_PRIVATE_KEY] : [],
@@ -37,7 +37,7 @@ const config = {
   },
   etherscan: {
     apiKey: {
-      bsc_testnet: BSCSCAN_API_KEY,
+      bscTestnet: BSCSCAN_API_KEY,
     },
   },
   typechain: {

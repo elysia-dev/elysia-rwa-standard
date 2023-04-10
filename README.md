@@ -38,19 +38,25 @@ $ yarn test
 
 ### Deploy
 
-Deploy the contracts to Hardhat Network: **supporting networks : bsc_testnet, bsc**
+Deploy the contracts to Hardhat Network: **supporting networks : bscTestnet, bsc**
 
 ```sh
-$ yarn hardhat deploy --network bsc_testnet
+$ yarn hardhat deploy --network bscTestnet
+```
+
+### Verify
+
+```sh
+$ yarn hardhat verify --network bscTestnet CONTARCT_ADDRESS "Elysia RWA Standard" "ERWA"
 ```
 
 ### Tasks
 
 ```sh
-yarn hardhat grant-minter-role --network bsc_testnet
-yarn hardhat mint --network bsc_testnet
-yarn hardhat burn --network bsc_testnet
-yarn hardhat set-token-uri --network bsc_testnet
+yarn hardhat grant-minter-role --network bscTestnet
+yarn hardhat mint --network bscTestnet
+yarn hardhat burn --network bscTestnet
+yarn hardhat set-token-uri --network bscTestnet
 ```
 
 ## License
