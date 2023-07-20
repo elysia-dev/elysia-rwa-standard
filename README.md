@@ -38,7 +38,7 @@ $ yarn test
 
 ### Deploy
 
-Deploy the contracts to Hardhat Network: **supporting networks : bscTestnet, bsc**
+Deploy the contracts to Hardhat Network: **supporting networks : bscTestnet, bsc, baobab, cypress**
 
 ```sh
 $ yarn hardhat deploy --network bscTestnet
